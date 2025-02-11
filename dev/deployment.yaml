@@ -27,6 +27,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: nginxdemos/hello  # The existing image
+        image: nginxdemos/hello:plain-text
         ports:
         - containerPort: 80
